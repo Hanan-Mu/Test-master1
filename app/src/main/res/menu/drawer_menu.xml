@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <group android:checkableBehavior="single"
+        >
+
+
+        <item android:id="@+id/activities"
+            android:icon="@drawable/ic_folder_shared"
+            app:showAsAction="always"
+            android:title=" الفرص التطوعية ">
+        </item>
+
+        <item android:id="@+id/my_activities"
+            android:icon="@drawable/ic_pan_tool"
+            app:showAsAction="always"
+            android:title=" مشاركاتي ">
+        </item>
+
+        <item android:id="@+id/my_data"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:onClick="editJSON"
+            app:showAsAction="always"
+            android:title=" بياناتي ">
+        </item>
+
+        <item android:id="@+id/about"
+            android:icon="@drawable/ic_adb_black_24dp"
+            app:showAsAction="always"
+            android:title=" عن التطبيق ">
+        </item>
+
+        <item android:id="@+id/sign_out"
+            android:icon="@drawable/ic_arrow_back"
+            app:showAsAction="always"
+            android:title=" تسجيل الخروج ">
+        </item>
+
+
+
+    </group>
+
+
+</menu>

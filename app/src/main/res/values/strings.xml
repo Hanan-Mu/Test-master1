@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name"> رواد التطوع </string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <string name="oppTitle1"> تطوع من أجل لغتك </string>
+    <string name="oppText1"> مرحباً بمحبي اللغة العربية الطامحين إلى إعادة مجدها إليكم سبع عشرة فكرة عملية لخدمة لغتنا الجميلة ... </string>
+    <string name="oppnum1"> 6 </string>
+
+    <string name="oppTitle2"> جزيل للتحرير الكتابي </string>
+    <string name="oppText2"> "تعلن جزيل للمنظمات الخيرية النامية عن وجود شاغر لديها في قسم الترجمة , الشؤون الإداريه , وتفتح أبوابها .." </string>
+    <string name="oppnum2"> 2 </string>
+
+    <string name="oppTitle3"> تطوع من أجل لغتك </string>
+    <string name="oppText3"> في ظل الأزمات الصحية التي نمر بها في مجتمعنا لابد من أن نتخذ إجراءات عاجلة ونصنع ثورة للأمراض المزمنه .. </string>
+    <string name="oppnum3"> 9 </string>
+
+</resources>

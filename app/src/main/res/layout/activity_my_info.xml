@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fceadc"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" بياناتي "
+        android:layout_margin="30dp"
+        android:layout_gravity="end"
+        android:textSize="40sp"
+        android:textColor="#9a4102"
+        android:id="@+id/text_myinfo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" الاسم : "
+            android:textSize="25sp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/text_username" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" البريد الإلكتروني : "
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:id="@+id/text_email" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" تاريخ الميلاد : "
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:id="@+id/text_date" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" الجنس : "
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:id="@+id/text_gender" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" رقم التواصل : "
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:id="@+id/text_phone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" المدينة : "
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"
+            android:id="@+id/text_city" />
+
+</LinearLayout>

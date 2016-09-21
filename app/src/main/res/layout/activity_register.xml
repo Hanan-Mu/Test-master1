@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fceadc"
+    android:layout_gravity="center">
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:layout_marginTop="50dp"
+        android:hint=" اسم المستخدم "
+        android:id="@+id/edit_name"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textEmailAddress"
+        android:hint=" البريد الإلكتروني "
+        android:ems="10"
+        android:id="@+id/edit_email"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:hint=" كلمة المرور "
+        android:ems="10"
+        android:id="@+id/edit_password1"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="date"
+        android:hint="YYYY-MM-DD  تاريخ الميلاد "
+        android:ems="10"
+        android:id="@+id/edit_date"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="textEnd"/>
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+        android:hint=" الجنس : ذكر أو أنثى "
+        android:textSize="20sp"
+        android:id="@+id/edit_gender"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="phone"
+        android:hint=" رقم الهاتف "
+        android:id="@+id/edit_phone"
+        android:layout_marginBottom="10dp"/>
+
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+        android:hint=" المدينة "
+        android:id="@+id/edit_city"
+        android:layout_marginBottom="10dp"/>
+
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text=" إنشاء الحساب "
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:background="#006fc4"
+        android:onClick="userReg"
+        android:id="@+id/button_register" />
+
+</LinearLayout>
